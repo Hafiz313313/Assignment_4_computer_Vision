@@ -1,5 +1,8 @@
 # For your convenience:
 # Paste the required functions from previous assignments here.
+import numpy as np
+
+
 
 def estimate_F_DLT(x1s, x2s):
     x1 = x1s[0, :] / x1s[2, :]
